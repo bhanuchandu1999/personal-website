@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+header{
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(191, 191, 191);
+}
+
+.navBar{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 0px;
+    background-color: rgb(191, 191, 191);
+}
+
+.navBar li{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: rgb(191, 191, 191);
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.navBar li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.navBar li.entertainment a{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 0px;
+    opacity: 0.6;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
